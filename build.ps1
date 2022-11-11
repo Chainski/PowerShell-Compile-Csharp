@@ -11,9 +11,9 @@ using System.Windows.Forms;
  
 namespace Chainski
 {
-    class Program
+    public class Program
     {
-        static void Main()
+        public static void Main()
         {
            MessageBox.Show("Hello, World !");
         }
