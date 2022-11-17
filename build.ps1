@@ -21,7 +21,6 @@ namespace Chainski
 }
 "@
 $outpath  =  "$env:userprofile\downloads\hello.exe" 
-$main  =  "Hello"  
 $dict = new-object 'System.Collections.Generic.Dictionary[string,string]' 
 $dict.Add('CompilerVersion','v4.0')
 $CsharpCompiler = New-Object Microsoft.CSharp.CSharpCodeProvider $dict
